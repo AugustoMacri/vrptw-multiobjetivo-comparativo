@@ -1,0 +1,24 @@
+Estatísticas das Execuções Mono-Objetivo
+=======================================
+
+Total de execuções analisadas: 10
+
+Execução   | Melhor Fitness  | Fitness Médio   | Desvio Padrão   | Arquivo                       
+-----------------------------------------------------------------------------------------------
+1          | 11418.99        | 11418.99        | 0.00            | mono_stats_20250626_174011.txt
+2          | 11590.92        | 11617.53        | 36.59           | mono_stats_20250626_174421.txt
+3          | 11062.63        | 11095.59        | 42.30           | mono_stats_20250626_174917.txt
+4          | 11268.43        | 11268.43        | 0.00            | mono_stats_20250626_175321.txt
+5          | 11048.67        | 11201.80        | 48.39           | mono_stats_20250626_175713.txt
+6          | 11181.17        | 11181.17        | 0.00            | mono_stats_20250626_222813.txt
+7          | 11290.07        | 11294.00        | 6.58            | mono_stats_20250626_223429.txt
+8          | 11351.22        | 11389.23        | 53.43           | mono_stats_20250626_223734.txt
+9          | 11320.07        | 11375.57        | 52.23           | mono_stats_20250626_224026.txt
+10         | 11012.98        | 11079.58        | 48.40           | mono_stats_20250626_224319.txt
+
+Estatísticas Gerais:
+Melhor fitness encontrado: 11012.98
+Pior fitness encontrado: 11590.92
+Fitness médio geral: 11254.52
+Média dos fitness médios: 11292.19
+Média dos desvios padrão: 28.79

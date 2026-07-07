@@ -1,0 +1,6 @@
+# VRP NSGA-III - Frente de Pareto
+# Tempo: 482309 ms | Tamanho: 2
+# Formato: Distancia Tempo Combustivel FitnessPonderado
+
+1331,054033 5308,152643 670,500000 7312,456676
+1328,669081 5308,473087 670,500000 7310,392168

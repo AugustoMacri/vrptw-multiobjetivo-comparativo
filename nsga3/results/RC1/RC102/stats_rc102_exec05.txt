@@ -1,0 +1,479 @@
+Executando em modo automático:
+  Instância: 42
+  Algoritmo: NSGA-III
+  Tipo: Solomon
+
+Tipo selecionado: Instâncias Solomon
+
+=== MENU DE SELEÇÃO DE INSTÂNCIA ===
+
+Instância selecionada: RC102.txt
+Number of vehicles: 25
+Vehicle capacity: 200
+Number of clients: 101
+
+=== NSGA-III para Problema de Roteamento de Veiculos ===
+
+Configuracao do Problema:
+- Clientes: 100, Veiculos: 25, Capacidade: 200
+- Objetivos: Distancia, Tempo, Combustivel
+- Constraints: Capacidade, Time Windows, Cobertura
+
+DEBUG: Seed JMetal: 140937333303899
+2026-05-23 10:06:42.167 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2026-05-23 10:06:42.194 INFO: rpssize: 595 [org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIII <init>]
+Configuracao do NSGA-III:
+- Pop solicitada: 600
+- Geracoes: 3000
+- Crossover: OnePoint por coluna (Pc=1.0)
+- Mutacao: Swap intra+inter rota (Pm=0.01)
+- Selecao: Binary Tournament
+
+Iniciando execucao...
+
+DEBUG: Primeira solucao criada - Dist: 2090,69, Tempo: 1736,74, Comb: 1054,65
+DEBUG: 100 solucoes criadas na inicializacao
+DEBUG: 200 solucoes criadas na inicializacao
+DEBUG: 300 solucoes criadas na inicializacao
+DEBUG: 400 solucoes criadas na inicializacao
+DEBUG: 500 solucoes criadas na inicializacao
+[Eval 5000] Best: Dist=2031,56, Time=1728,89, Fuel=1024,20 | Unique solutions: 2484
+[Eval 10000] Best: Dist=2027,85, Time=1727,61, Fuel=1021,12 | Unique solutions: 4517
+[Eval 15000] Best: Dist=2027,85, Time=1725,60, Fuel=1021,12 | Unique solutions: 6620
+[Eval 20000] Best: Dist=2027,85, Time=1725,38, Fuel=1021,12 | Unique solutions: 9200
+[Eval 25000] Best: Dist=2013,82, Time=1722,17, Fuel=1014,90 | Unique solutions: 12586
+[Eval 30000] Best: Dist=2012,39, Time=1715,92, Fuel=1014,22 | Unique solutions: 16464
+[Eval 35000] Best: Dist=2012,39, Time=1715,92, Fuel=1014,22 | Unique solutions: 20686
+[Eval 40000] Best: Dist=2012,39, Time=1715,92, Fuel=1014,22 | Unique solutions: 24875
+[Eval 45000] Best: Dist=2012,39, Time=1713,93, Fuel=1014,22 | Unique solutions: 29122
+[Eval 50000] Best: Dist=2007,79, Time=1713,93, Fuel=1012,58 | Unique solutions: 33425
+[Eval 55000] Best: Dist=2005,28, Time=1706,92, Fuel=1012,58 | Unique solutions: 33425
+[Eval 60000] Best: Dist=2000,60, Time=1706,92, Fuel=1008,30 | Unique solutions: 33425
+[Eval 65000] Best: Dist=1984,73, Time=1704,83, Fuel=999,60 | Unique solutions: 33425
+[Eval 70000] Best: Dist=1984,73, Time=1703,67, Fuel=999,60 | Unique solutions: 33425
+[Eval 75000] Best: Dist=1984,73, Time=1703,17, Fuel=999,60 | Unique solutions: 33425
+[Eval 80000] Best: Dist=1984,73, Time=1703,10, Fuel=999,60 | Unique solutions: 33425
+[Eval 85000] Best: Dist=1984,73, Time=1701,01, Fuel=999,60 | Unique solutions: 33425
+[Eval 90000] Best: Dist=1984,73, Time=1694,82, Fuel=999,30 | Unique solutions: 33425
+[Eval 95000] Best: Dist=1978,10, Time=1694,82, Fuel=999,15 | Unique solutions: 33425
+[Eval 100000] Best: Dist=1978,10, Time=1693,96, Fuel=999,15 | Unique solutions: 33425
+[Eval 105000] Best: Dist=1976,50, Time=1693,96, Fuel=997,43 | Unique solutions: 33425
+[Eval 110000] Best: Dist=1976,50, Time=1691,03, Fuel=996,90 | Unique solutions: 33425
+[Eval 115000] Best: Dist=1976,50, Time=1691,03, Fuel=996,90 | Unique solutions: 33425
+[Eval 120000] Best: Dist=1976,50, Time=1687,53, Fuel=996,90 | Unique solutions: 33425
+[Eval 125000] Best: Dist=1974,59, Time=1687,53, Fuel=996,75 | Unique solutions: 33425
+[Eval 130000] Best: Dist=1974,59, Time=1687,53, Fuel=995,25 | Unique solutions: 33425
+[Eval 135000] Best: Dist=1974,59, Time=1687,36, Fuel=995,25 | Unique solutions: 33425
+[Eval 140000] Best: Dist=1974,59, Time=1686,80, Fuel=995,25 | Unique solutions: 33425
+[Eval 145000] Best: Dist=1946,90, Time=1686,80, Fuel=982,20 | Unique solutions: 33425
+[Eval 150000] Best: Dist=1946,90, Time=1686,63, Fuel=982,20 | Unique solutions: 33425
+[Eval 155000] Best: Dist=1946,90, Time=1681,34, Fuel=981,07 | Unique solutions: 33425
+[Eval 160000] Best: Dist=1942,79, Time=1679,84, Fuel=980,93 | Unique solutions: 33425
+[Eval 165000] Best: Dist=1942,79, Time=1679,84, Fuel=978,52 | Unique solutions: 33425
+[Eval 170000] Best: Dist=1942,79, Time=1679,84, Fuel=978,52 | Unique solutions: 33425
+[Eval 175000] Best: Dist=1940,55, Time=1678,76, Fuel=975,45 | Unique solutions: 33425
+[Eval 180000] Best: Dist=1932,45, Time=1678,76, Fuel=972,82 | Unique solutions: 33425
+[Eval 185000] Best: Dist=1932,45, Time=1678,76, Fuel=972,82 | Unique solutions: 33425
+[Eval 190000] Best: Dist=1928,68, Time=1678,76, Fuel=972,82 | Unique solutions: 33425
+[Eval 195000] Best: Dist=1928,68, Time=1678,30, Fuel=970,43 | Unique solutions: 33425
+[Eval 200000] Best: Dist=1912,08, Time=1676,37, Fuel=962,40 | Unique solutions: 33425
+[Eval 205000] Best: Dist=1905,20, Time=1676,37, Fuel=962,25 | Unique solutions: 33425
+[Eval 210000] Best: Dist=1905,20, Time=1676,37, Fuel=962,25 | Unique solutions: 33425
+[Eval 215000] Best: Dist=1905,20, Time=1676,37, Fuel=962,25 | Unique solutions: 33425
+[Eval 220000] Best: Dist=1905,20, Time=1672,08, Fuel=958,95 | Unique solutions: 33425
+[Eval 225000] Best: Dist=1905,20, Time=1665,44, Fuel=958,95 | Unique solutions: 33425
+[Eval 230000] Best: Dist=1903,42, Time=1665,44, Fuel=958,95 | Unique solutions: 33425
+[Eval 235000] Best: Dist=1903,42, Time=1665,44, Fuel=958,95 | Unique solutions: 33425
+[Eval 240000] Best: Dist=1894,05, Time=1665,44, Fuel=953,18 | Unique solutions: 33425
+[Eval 245000] Best: Dist=1894,05, Time=1663,24, Fuel=953,18 | Unique solutions: 33425
+[Eval 250000] Best: Dist=1884,15, Time=1663,24, Fuel=947,10 | Unique solutions: 33425
+[Eval 255000] Best: Dist=1884,15, Time=1663,24, Fuel=947,10 | Unique solutions: 33425
+[Eval 260000] Best: Dist=1884,15, Time=1663,24, Fuel=947,10 | Unique solutions: 33425
+[Eval 265000] Best: Dist=1884,15, Time=1663,24, Fuel=947,10 | Unique solutions: 33425
+[Eval 270000] Best: Dist=1874,56, Time=1663,24, Fuel=945,68 | Unique solutions: 33425
+[Eval 275000] Best: Dist=1874,56, Time=1663,24, Fuel=945,68 | Unique solutions: 33425
+[Eval 280000] Best: Dist=1874,56, Time=1662,58, Fuel=945,68 | Unique solutions: 33425
+[Eval 285000] Best: Dist=1874,56, Time=1662,58, Fuel=945,68 | Unique solutions: 33425
+[Eval 290000] Best: Dist=1874,56, Time=1662,58, Fuel=945,68 | Unique solutions: 33425
+[Eval 295000] Best: Dist=1874,44, Time=1662,58, Fuel=942,75 | Unique solutions: 33425
+[Eval 300000] Best: Dist=1874,44, Time=1662,58, Fuel=942,75 | Unique solutions: 33425
+[Eval 305000] Best: Dist=1859,53, Time=1662,58, Fuel=942,75 | Unique solutions: 33425
+[Eval 310000] Best: Dist=1859,53, Time=1662,58, Fuel=942,60 | Unique solutions: 33425
+[Eval 315000] Best: Dist=1859,53, Time=1662,58, Fuel=942,60 | Unique solutions: 33425
+[Eval 320000] Best: Dist=1859,53, Time=1661,69, Fuel=942,60 | Unique solutions: 33425
+[Eval 325000] Best: Dist=1857,75, Time=1657,77, Fuel=942,38 | Unique solutions: 33425
+[Eval 330000] Best: Dist=1856,67, Time=1657,77, Fuel=942,38 | Unique solutions: 33425
+[Eval 335000] Best: Dist=1856,67, Time=1657,77, Fuel=938,25 | Unique solutions: 33425
+[Eval 340000] Best: Dist=1856,67, Time=1657,77, Fuel=938,25 | Unique solutions: 33425
+[Eval 345000] Best: Dist=1856,67, Time=1657,77, Fuel=938,25 | Unique solutions: 33425
+[Eval 350000] Best: Dist=1854,89, Time=1657,40, Fuel=938,25 | Unique solutions: 33425
+[Eval 355000] Best: Dist=1851,63, Time=1657,40, Fuel=937,80 | Unique solutions: 33425
+[Eval 360000] Best: Dist=1851,63, Time=1655,10, Fuel=937,80 | Unique solutions: 33425
+[Eval 365000] Best: Dist=1851,63, Time=1655,10, Fuel=937,80 | Unique solutions: 33425
+[Eval 370000] Best: Dist=1851,63, Time=1655,10, Fuel=937,80 | Unique solutions: 33425
+[Eval 375000] Best: Dist=1851,63, Time=1655,10, Fuel=937,80 | Unique solutions: 33425
+[Eval 380000] Best: Dist=1851,63, Time=1648,89, Fuel=937,80 | Unique solutions: 33425
+[Eval 385000] Best: Dist=1851,63, Time=1648,89, Fuel=937,80 | Unique solutions: 33425
+[Eval 390000] Best: Dist=1851,63, Time=1648,89, Fuel=937,80 | Unique solutions: 33425
+[Eval 395000] Best: Dist=1848,77, Time=1648,89, Fuel=937,80 | Unique solutions: 33425
+[Eval 400000] Best: Dist=1848,77, Time=1648,89, Fuel=937,80 | Unique solutions: 33425
+[Eval 405000] Best: Dist=1844,56, Time=1647,16, Fuel=934,13 | Unique solutions: 33425
+[Eval 410000] Best: Dist=1844,56, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 415000] Best: Dist=1844,56, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 420000] Best: Dist=1844,56, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 425000] Best: Dist=1844,56, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 430000] Best: Dist=1844,56, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 435000] Best: Dist=1842,51, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 440000] Best: Dist=1842,51, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 445000] Best: Dist=1842,51, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 450000] Best: Dist=1842,51, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 455000] Best: Dist=1842,51, Time=1640,76, Fuel=934,13 | Unique solutions: 33425
+[Eval 460000] Best: Dist=1842,51, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 465000] Best: Dist=1840,73, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 470000] Best: Dist=1840,73, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 475000] Best: Dist=1840,73, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 480000] Best: Dist=1840,73, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 485000] Best: Dist=1840,73, Time=1640,76, Fuel=931,13 | Unique solutions: 33425
+[Eval 490000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 495000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 500000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 505000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 510000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 515000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 520000] Best: Dist=1840,73, Time=1640,43, Fuel=931,13 | Unique solutions: 33425
+[Eval 525000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 530000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 535000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 540000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 545000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 550000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 555000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 560000] Best: Dist=1840,73, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 565000] Best: Dist=1840,14, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 570000] Best: Dist=1840,14, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 575000] Best: Dist=1840,14, Time=1640,43, Fuel=930,45 | Unique solutions: 33425
+[Eval 580000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 585000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 590000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 595000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 600000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 605000] Best: Dist=1840,08, Time=1639,78, Fuel=930,45 | Unique solutions: 33425
+[Eval 610000] Best: Dist=1833,95, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 615000] Best: Dist=1833,95, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 620000] Best: Dist=1833,95, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 625000] Best: Dist=1833,42, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 630000] Best: Dist=1833,42, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 635000] Best: Dist=1833,42, Time=1637,10, Fuel=930,45 | Unique solutions: 33425
+[Eval 640000] Best: Dist=1833,42, Time=1637,10, Fuel=927,15 | Unique solutions: 33425
+[Eval 645000] Best: Dist=1832,17, Time=1637,10, Fuel=927,15 | Unique solutions: 33425
+[Eval 650000] Best: Dist=1832,17, Time=1637,10, Fuel=927,15 | Unique solutions: 33425
+[Eval 655000] Best: Dist=1831,64, Time=1636,96, Fuel=927,15 | Unique solutions: 33425
+[Eval 660000] Best: Dist=1831,64, Time=1636,96, Fuel=927,15 | Unique solutions: 33425
+[Eval 665000] Best: Dist=1831,64, Time=1636,96, Fuel=927,15 | Unique solutions: 33425
+[Eval 670000] Best: Dist=1831,64, Time=1636,96, Fuel=927,15 | Unique solutions: 33425
+[Eval 675000] Best: Dist=1831,64, Time=1635,97, Fuel=927,15 | Unique solutions: 33425
+[Eval 680000] Best: Dist=1831,64, Time=1635,97, Fuel=927,15 | Unique solutions: 33425
+[Eval 685000] Best: Dist=1831,64, Time=1635,97, Fuel=927,15 | Unique solutions: 33425
+[Eval 690000] Best: Dist=1831,64, Time=1635,97, Fuel=927,15 | Unique solutions: 33425
+[Eval 695000] Best: Dist=1831,64, Time=1635,97, Fuel=927,15 | Unique solutions: 33425
+[Eval 700000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 705000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 710000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 715000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 720000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 725000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 730000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 735000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 740000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 745000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 750000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 755000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 760000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 765000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 770000] Best: Dist=1831,64, Time=1635,47, Fuel=927,15 | Unique solutions: 33425
+[Eval 775000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 780000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 785000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 790000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 795000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 800000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 805000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 810000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 815000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 820000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 825000] Best: Dist=1831,64, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 830000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 835000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 840000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 845000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 850000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 855000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 860000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 865000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 870000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 875000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 880000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 885000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 890000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 895000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 900000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 905000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 910000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 915000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 920000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 925000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 930000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 935000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 940000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 945000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 950000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 955000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 960000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 965000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 970000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 975000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 980000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 985000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 990000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 995000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1000000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1005000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1010000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1015000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1020000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1025000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1030000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1035000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1040000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1045000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1050000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1055000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1060000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1065000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1070000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1075000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1080000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1085000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1090000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1095000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1100000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1105000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1110000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1115000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1120000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1125000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1130000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1135000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1140000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1145000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1150000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1155000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1160000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1165000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1170000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1175000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1180000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1185000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1190000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1195000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1200000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1205000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1210000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1215000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1220000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1225000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1230000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1235000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1240000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1245000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1250000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1255000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1260000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1265000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1270000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1275000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1280000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1285000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1290000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1295000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1300000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1305000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1310000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1315000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1320000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1325000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1330000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1335000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1340000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1345000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1350000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1355000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1360000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1365000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1370000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1375000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1380000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1385000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1390000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1395000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1400000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1405000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1410000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1415000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1420000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1425000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1430000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1435000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1440000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1445000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1450000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1455000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1460000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1465000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1470000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1475000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1480000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1485000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1490000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1495000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1500000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1505000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1510000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1515000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1520000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1525000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1530000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1535000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1540000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1545000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1550000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1555000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1560000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1565000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1570000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1575000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1580000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1585000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1590000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1595000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1600000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1605000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1610000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1615000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1620000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1625000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1630000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1635000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1640000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1645000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1650000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1655000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1660000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1665000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1670000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1675000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1680000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1685000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1690000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1695000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1700000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1705000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1710000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1715000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1720000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1725000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1730000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1735000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1740000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1745000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1750000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1755000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1760000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1765000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1770000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1775000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1780000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+[Eval 1785000] Best: Dist=1831,20, Time=1635,47, Fuel=926,55 | Unique solutions: 33425
+
+========================================
+=== DIAGNOSTICO DA EXECUCAO NSGA-III ===
+========================================
+Tempo de execucao: 482168 ms
+Solucoes criadas na inicializacao: 596
+Total de avaliacoes: 1788596
+Solucoes na frente de Pareto final: 18
+Solucoes unicas observadas: 33425
+Populacao efetiva (real): 596
+Geracoes estimadas: 3000
+
+Melhores objetivos ao final:
+- Dist: 1831,20
+- Tempo: 1635,47
+- Comb: 926,55
+========================================
+
+=== Frente de Pareto ===
+Dist: [1831,20 - 1895,43]
+Tempo: [1635,47 - 1675,01]
+Comb: [926,55 - 959,77]
+
+Melhor Distancia:
+Objetivos: Dist=1831,20, Tempo=1655,94, Comb=928,50
+  Veiculo 0: [92, 95, 33, 28, 26, 32, 34, 50, 91, 80] (Carga: 166/200)
+  Veiculo 1: [96, 29, 27, 31, 54, 93, 94] (Carga: 118/200)
+  Veiculo 2: [72, 71, 67, 56, 66, 52, 82] (Carga: 78/200)
+  Veiculo 3: [42, 39, 36, 37, 38, 41, 43, 68, 70, 100] (Carga: 187/200)
+  Veiculo 4: [85, 63, 76, 51, 84, 55, 98] (Carga: 101/200)
+  Veiculo 5: [3, 5, 45, 7, 6, 8, 46, 4, 1, 2] (Carga: 190/200)
+  Veiculo 6: [12, 14, 47, 11, 9, 53, 10, 13] (Carga: 145/200)
+  Veiculo 7: [21, 23, 19, 49, 22, 20, 25, 24, 83] (Carga: 184/200)
+  Veiculo 8: [65, 57, 86, 74] (Carga: 75/200)
+  Veiculo 9: [15, 16, 73, 78, 17, 60] (Carga: 109/200)
+  Veiculo 10: [64, 18, 48, 77, 58] (Carga: 74/200)
+  Veiculo 11: [69, 61, 81, 90] (Carga: 52/200)
+  Veiculo 12: [88, 79] (Carga: 49/200)
+  Veiculo 13: [44, 40, 35] (Carga: 60/200)
+  Veiculo 14: [99, 87, 59, 97, 75] (Carga: 98/200)
+  Veiculo 15: [62, 30, 89] (Carga: 38/200)
+
+Melhor Tempo:
+Objetivos: Dist=1895,43, Tempo=1635,47, Comb=959,77
+  Veiculo 0: [92, 95, 33, 28, 26, 32, 34, 50, 91, 80] (Carga: 166/200)
+  Veiculo 1: [96, 29, 27, 31, 54, 93, 94] (Carga: 118/200)
+  Veiculo 2: [72, 71, 67, 56, 66, 52, 82] (Carga: 78/200)
+  Veiculo 3: [42, 39, 36, 37, 38, 40, 43, 68, 70, 100] (Carga: 197/200)
+  Veiculo 4: [85, 63, 76, 51, 84, 55, 98] (Carga: 101/200)
+  Veiculo 5: [3, 5, 45, 7, 6, 8, 46, 4, 1, 2] (Carga: 190/200)
+  Veiculo 6: [12, 14, 47, 11, 9, 53, 10, 13] (Carga: 145/200)
+  Veiculo 7: [48, 19, 23, 49, 22, 20, 25, 24, 83] (Carga: 184/200)
+  Veiculo 8: [99, 57, 86, 74] (Carga: 74/200)
+  Veiculo 9: [15, 16, 73, 78, 17, 60] (Carga: 109/200)
+  Veiculo 10: [75, 18, 21, 77, 58] (Carga: 73/200)
+  Veiculo 11: [69, 61, 81, 90] (Carga: 52/200)
+  Veiculo 12: [88, 79] (Carga: 49/200)
+  Veiculo 13: [44, 41, 35] (Carga: 50/200)
+  Veiculo 14: [65, 64, 87, 59, 97] (Carga: 100/200)
+  Veiculo 15: [62, 30, 89] (Carga: 38/200)
+
+Melhor Combustivel:
+Objetivos: Dist=1842,22, Tempo=1672,60, Comb=926,55
+  Veiculo 0: [92, 95, 33, 28, 26, 32, 34, 50, 91, 80] (Carga: 166/200)
+  Veiculo 1: [96, 29, 27, 31, 54, 93, 94] (Carga: 118/200)
+  Veiculo 2: [72, 71, 67, 56, 66, 83, 82] (Carga: 89/200)
+  Veiculo 3: [42, 39, 36, 37, 38, 41, 43, 68, 70, 100] (Carga: 187/200)
+  Veiculo 4: [85, 63, 76, 51, 84, 55, 98] (Carga: 101/200)
+  Veiculo 5: [3, 5, 45, 7, 6, 8, 46, 4, 1, 2] (Carga: 190/200)
+  Veiculo 6: [12, 14, 47, 11, 9, 53, 10, 13] (Carga: 145/200)
+  Veiculo 7: [21, 23, 18, 49, 22, 20, 25, 24, 52] (Carga: 153/200)
+  Veiculo 8: [99, 57, 86, 74] (Carga: 74/200)
+  Veiculo 9: [15, 16, 73, 78, 17] (Carga: 92/200)
+  Veiculo 10: [64, 19, 48, 77, 58] (Carga: 94/200)
+  Veiculo 11: [69, 61, 81, 90] (Carga: 52/200)
+  Veiculo 12: [88, 79, 60] (Carga: 66/200)
+  Veiculo 13: [44, 40, 35] (Carga: 60/200)
+  Veiculo 14: [65, 87, 97, 59, 75] (Carga: 99/200)
+  Veiculo 15: [62, 30, 89] (Carga: 38/200)
+Resultados salvos em: resultsNSGA3/evo_rc102_exec05.txt
+Frente de Pareto salva em: resultsNSGA3/pareto_rc102_exec05.txt
+
+=== Execucao Concluida com Sucesso! ===

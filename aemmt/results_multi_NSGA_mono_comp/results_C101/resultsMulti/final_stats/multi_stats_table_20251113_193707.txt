@@ -1,0 +1,24 @@
+Estatísticas das Execuções Multi-Objetivo (Subpopulação de Ponderação)
+==================================================================
+
+Total de execuções analisadas: 10
+
+Execução   | Melhor Fitness  | Fitness Médio   | Desvio Padrão   | Arquivo                       
+-----------------------------------------------------------------------------------------------
+1          | 11021.30        | 11093.85        | 41.03           | multi_stats_20251029_004830.txt
+2          | 11313.39        | 11313.94        | 2.66            | multi_stats_20251029_010449.txt
+3          | 11177.00        | 11218.97        | 7.74            | multi_stats_20251029_120604.txt
+4          | 10945.76        | 11020.38        | 54.38           | multi_stats_20251029_121737.txt
+5          | 11139.08        | 11139.10        | 0.44            | multi_stats_20251029_122905.txt
+6          | 11107.71        | 11107.71        | 0.00            | multi_stats_20251029_124026.txt
+7          | 10883.09        | 10922.10        | 21.73           | multi_stats_20251029_125207.txt
+8          | 10988.72        | 11001.16        | 11.40           | multi_stats_20251029_130431.txt
+9          | 11211.08        | 11233.72        | 12.74           | multi_stats_20251029_131608.txt
+10         | 11236.16        | 11237.10        | 1.71            | multi_stats_20251029_132936.txt
+
+Estatísticas Gerais:
+Melhor fitness encontrado: 10883.09
+Pior fitness encontrado: 11313.39
+Fitness médio geral: 11102.33
+Média dos fitness médios: 11128.80
+Média dos desvios padrão: 15.38

@@ -1,0 +1,417 @@
+
+[0;34m======================================================================[0m
+[0;34m   VALIDAÇÃO COMPLETA - NSGA-III[0m
+[0;34m======================================================================[0m
+
+[0;32m📁 Diretório de resultados: resultsNSGA3[0m
+
+
+[0;34m======================================================================[0m
+[0;34m   VALIDANDO CLASSE C1[0m
+[0;34m======================================================================[0m
+
+
+[1;33m📋 Validando C101...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C101: 0/10 válidas[0m
+
+[1;33m📋 Validando C102...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C102: 0/10 válidas[0m
+
+[1;33m📋 Validando C103...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C103: 0/10 válidas[0m
+
+[1;33m📋 Validando C104...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C104: 0/10 válidas[0m
+
+[1;33m📋 Validando C105...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C105: 0/10 válidas[0m
+
+[1;33m📋 Validando C106...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C106: 0/10 válidas[0m
+
+[1;33m📋 Validando C107...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C107: 0/10 válidas[0m
+
+[1;33m📋 Validando C108...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C108: 0/10 válidas[0m
+
+[1;33m📋 Validando C109...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ C109: 0/10 válidas[0m
+
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+[0;34mSUMÁRIO C1:[0m
+  Válidas:   0/90
+  Inválidas: 90/90
+  Faltando:  0/90
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+
+[0;34m======================================================================[0m
+[0;34m   VALIDANDO CLASSE R1[0m
+[0;34m======================================================================[0m
+
+
+[1;33m📋 Validando R101...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R101: 0/10 válidas[0m
+
+[1;33m📋 Validando R102...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R102: 0/10 válidas[0m
+
+[1;33m📋 Validando R103...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R103: 0/10 válidas[0m
+
+[1;33m📋 Validando R104...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R104: 0/10 válidas[0m
+
+[1;33m📋 Validando R105...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R105: 0/10 válidas[0m
+
+[1;33m📋 Validando R106...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R106: 0/10 válidas[0m
+
+[1;33m📋 Validando R107...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R107: 0/10 válidas[0m
+
+[1;33m📋 Validando R108...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R108: 0/10 válidas[0m
+
+[1;33m📋 Validando R109...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ R109: 0/10 válidas[0m
+
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+[0;34mSUMÁRIO R1:[0m
+  Válidas:   0/90
+  Inválidas: 90/90
+  Faltando:  0/90
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+
+[0;34m======================================================================[0m
+[0;34m   VALIDANDO CLASSE RC1[0m
+[0;34m======================================================================[0m
+
+
+[1;33m📋 Validando RC101...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC101: 0/10 válidas[0m
+
+[1;33m📋 Validando RC102...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC102: 0/10 válidas[0m
+
+[1;33m📋 Validando RC103...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC103: 0/10 válidas[0m
+
+[1;33m📋 Validando RC104...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC104: 0/10 válidas[0m
+
+[1;33m📋 Validando RC105...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC105: 0/10 válidas[0m
+
+[1;33m📋 Validando RC106...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC106: 0/10 válidas[0m
+
+[1;33m📋 Validando RC107...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC107: 0/10 válidas[0m
+
+[1;33m📋 Validando RC108...[0m
+[0;31m  ✗ exec01: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec02: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec03: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec04: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec05: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec06: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec07: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec08: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec09: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ exec10: INVÁLIDA (cap:0, time:0, missing:0)[0m
+[0;31m  ✗ RC108: 0/10 válidas[0m
+
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+[0;34mSUMÁRIO RC1:[0m
+  Válidas:   0/80
+  Inválidas: 80/80
+  Faltando:  0/80
+[0;34m──────────────────────────────────────────────────────────────────────[0m
+
+[0;34m======================================================================[0m
+[0;34m   SUMÁRIO FINAL - VALIDAÇÃO NSGA-III[0m
+[0;34m======================================================================[0m
+
+[0;34mESTATÍSTICAS GLOBAIS:[0m
+
+  Total de execuções: 260
+  [0;32mSoluções válidas:   0[0m
+  [0;31mSoluções inválidas: 260[0m
+  [1;33mArquivos faltando:  0[0m
+
+  [0;34mTaxa de sucesso: 0.0%[0m
+
+[0;34mDETALHAMENTO POR CLASSE:[0m
+
+  C1:
+    Válidas:   0/90 (0.0%)
+    Inválidas: 90
+    Faltando:  0
+
+  R1:
+    Válidas:   0/90 (0.0%)
+    Inválidas: 90
+    Faltando:  0
+
+  RC1:
+    Válidas:   0/80 (0.0%)
+    Inválidas: 80
+    Faltando:  0
+
+[0;34m======================================================================[0m
+[1;33m⚠️  VALIDAÇÃO INCOMPLETA[0m
+[0;31m   260 soluções inválidas encontradas[0m
+
+[1;33m   Revise os resultados e execute novamente as instâncias com problemas.[0m

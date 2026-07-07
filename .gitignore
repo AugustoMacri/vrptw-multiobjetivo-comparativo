@@ -1,0 +1,57 @@
+# =============================================================================
+# .gitignore — vrptw-multiobjetivo-comparativo
+# =============================================================================
+
+# ---- Java / build ----
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.log.1
+hs_err_pid*
+bin/
+build/
+target/
+out/
+
+# ---- Gradle ----
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+build/
+
+# ---- IDEs ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.metadata/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Sistema operacional ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Temporarios / logs ----
+*.tmp
+*.temp
+*.bak
+*.swp
+logs/
+tmp/

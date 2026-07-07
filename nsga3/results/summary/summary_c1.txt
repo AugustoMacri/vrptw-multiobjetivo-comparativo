@@ -1,0 +1,21 @@
+# Resumo C1 - NSGA-III
+# Melhor execucao por instancia (10 execucoes por instancia)
+# --------------------------------------------------------------------------------
+
+Instancia  Best Exec  Veiculos       Dist Min     Dist Med     Dist Max        Std
+------------------------------------------------------------------------------------------
+C101       exec06     13              1201.11      1214.60      1245.20      21.12
+C102       exec02     11              1249.56      1277.37      1310.48      28.65
+C103       exec04     10              1185.72      1278.80      1366.23      58.65
+C104       exec04     10              1119.08      1143.28      1196.31      26.26
+C105       exec02     12              1174.61      1248.42      1314.14      48.39
+C106       exec04     11              1328.67      1335.99      1346.92       9.41
+C107       exec06     13              1107.37      1199.87      1304.30      70.16
+C108       exec08     12              1170.38      1220.80      1313.98      39.62
+C109       exec04     11              1247.60      1266.53      1285.82      17.56
+
+Estatisticas da categoria C1:
+  Melhor distancia:    1107.37
+  Pior distancia:      1328.67
+  Media das melhores:  1198.23
+  Desvio padrao:       69.02

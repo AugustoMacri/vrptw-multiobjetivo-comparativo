@@ -1,0 +1,19 @@
+# Forca LF em scripts executaveis - garante compatibilidade Linux mesmo
+# quando o repo eh editado/commitado a partir de Windows.
+*.sh    text eol=lf
+*.py    text eol=lf
+gradlew text eol=lf
+
+# Java/texto comum: deixar git decidir (autocrlf)
+*.java  text
+*.md    text
+*.txt   text
+
+# Binarios
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.class binary
+*.jar   binary

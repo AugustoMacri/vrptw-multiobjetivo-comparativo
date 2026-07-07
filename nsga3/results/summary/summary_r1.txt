@@ -1,0 +1,21 @@
+# Resumo R1 - NSGA-III
+# Melhor execucao por instancia (10 execucoes por instancia)
+# --------------------------------------------------------------------------------
+
+Instancia  Best Exec  Veiculos       Dist Min     Dist Med     Dist Max        Std
+------------------------------------------------------------------------------------------
+R101       exec08     21              1884.79      1895.29      1904.88       6.86
+R102       exec08     20              1813.41      1827.78      1841.46      10.40
+R103       exec07     16              1535.31      1557.17      1570.81      12.27
+R104       exec01     12              1264.56      1291.27      1312.95      14.42
+R105       exec06     17              1693.46      1698.49      1702.47       3.34
+R106       exec06     15              1499.86      1521.13      1535.87      11.27
+R107       exec05     13              1341.79      1374.18      1396.00      19.63
+R108       exec01     11              1148.44      1180.21      1198.39      18.39
+R109       exec02     15              1401.31      1431.48      1471.90      21.14
+
+Estatisticas da categoria R1:
+  Melhor distancia:    1148.44
+  Pior distancia:      1884.79
+  Media das melhores:  1509.21
+  Desvio padrao:       249.50

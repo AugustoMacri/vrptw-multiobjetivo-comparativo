@@ -1,0 +1,108 @@
+package genetic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import main.App;
+import vrp.Client;
+
+public class DistanceFitnessCalculator implements FitnessCalculator {
+
+    @Override
+    public double calculateFitness(Individual individual, List<Client> clients) {
+        double totalDistance = 0;
+        int numViolations = 0;        // janela de tempo + capacidade
+        int missingClients = 0;
+        boolean[] visited = new boolean[App.numClients];
+        visited[0] = true; // deposito
+        Client depot = clients.get(0); // Depósito sempre no índice 0
+
+        for (int v = 0; v < App.numVehicles; v++) {
+            double vehicleDistance = 0;
+            double currentTime = 0;
+            int vehicleLoad = 0;
+
+            // Collect all clients in this vehicle's route
+            List<Integer> routeClients = new ArrayList<>();
+            for (int c = 0; c < App.numClients - 1; c++) {
+                int clientId = individual.getRoute()[v][c];
+                if (clientId == -1)
+                    break;
+                routeClients.add(clientId);
+                if (clientId > 0 && clientId < App.numClients) {
+                    visited[clientId] = true;
+                    vehicleLoad += clients.get(clientId).getDemand();
+                }
+            }
+
+            // If vehicle has no clients, skip
+            if (routeClients.isEmpty()) {
+                continue;
+            }
+
+            // Calculate distance: depot -> first client
+            Client firstClient = clients.get(routeClients.get(0));
+            double depotToFirstDistance = calculateDistance(depot, firstClient);
+            vehicleDistance += depotToFirstDistance;
+            currentTime += depotToFirstDistance / App.VEHICLE_SPEED; // Travel time = distance (Solomon)
+
+            // Check time window for first client
+            if (currentTime < firstClient.getReadyTime()) {
+                currentTime = firstClient.getReadyTime(); // Wait
+            }
+            if (currentTime > firstClient.getDueTime()) {
+                numViolations++;
+            }
+            currentTime += firstClient.getServiceTime();
+
+            // Calculate distances between consecutive clients
+            for (int i = 0; i < routeClients.size() - 1; i++) {
+                Client currentClient = clients.get(routeClients.get(i));
+                Client nextClient = clients.get(routeClients.get(i + 1));
+                double distance = calculateDistance(currentClient, nextClient);
+                vehicleDistance += distance;
+
+                // Update time and check time windows
+                currentTime += distance / App.VEHICLE_SPEED; // Travel time = distance (Solomon)
+                if (currentTime < nextClient.getReadyTime()) {
+                    currentTime = nextClient.getReadyTime(); // Wait
+                }
+                if (currentTime > nextClient.getDueTime()) {
+                    numViolations++;
+                }
+                currentTime += nextClient.getServiceTime();
+            }
+
+            // Calculate distance: last client -> depot
+            Client lastClient = clients.get(routeClients.get(routeClients.size() - 1));
+            vehicleDistance += calculateDistance(lastClient, depot);
+
+            totalDistance += vehicleDistance;
+
+            // Capacity violation (conta por veiculo sobrecarregado, igual NSGA-III)
+            if (vehicleLoad > App.vehicleCapacity) {
+                numViolations++;
+            }
+        }
+
+        // Conta clientes ausentes
+        for (int i = 1; i < App.numClients; i++) {
+            if (!visited[i])
+                missingClients++;
+        }
+
+        // Penalidades equalizadas com NSGA-III
+        double fitnessDistance = totalDistance
+                + (numViolations * App.WEIGHT_NUM_VIOLATIONS)
+                + (missingClients * App.WEIGHT_MISSING_CLIENT);
+
+        return fitnessDistance;
+
+    }
+
+    // Function to calculate the distance between two clients
+    private double calculateDistance(Client c1, Client c2) {
+        return Math.sqrt(Math.pow(c1.getX() - c2.getX(), 2) + Math.pow(c1.getY() - c2.getY(), 2));
+    }
+
+}

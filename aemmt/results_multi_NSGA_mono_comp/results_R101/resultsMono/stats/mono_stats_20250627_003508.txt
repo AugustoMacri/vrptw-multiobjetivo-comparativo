@@ -1,0 +1,5 @@
+Estatísticas da Execução Mono-Objetivo
+=====================================
+Melhor Fitness: 6450,89
+Fitness Médio: 6470,25
+Desvio Padrão: 16,18

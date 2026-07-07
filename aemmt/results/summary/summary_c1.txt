@@ -1,0 +1,21 @@
+# Resumo C1 - AEMMT
+# Melhor execucao por instancia (10 execucoes por instancia)
+# --------------------------------------------------------------------------------
+
+Instancia  Best Exec  Veiculos       Dist Min     Dist Med     Dist Max        Std
+------------------------------------------------------------------------------------------
+C101       exec06     13              1201.11      1230.97      1259.75      22.65
+C102       exec05     11              1215.12      1262.08      1284.13      21.43
+C103       exec08     11              1235.03      1313.21      1380.92      53.19
+C104       exec01     10              1126.43      1168.97      1208.79      20.42
+C105       exec05     12              1204.15      1260.71      1279.49      21.06
+C106       exec09     11              1172.76      1283.51      1346.92      58.05
+C107       exec03     13              1176.70      1223.49      1258.91      30.98
+C108       exec04     12              1155.01      1220.69      1287.27      48.97
+C109       exec06     11              1227.58      1267.56      1318.66      27.95
+
+Estatisticas da categoria C1:
+  Melhor distancia:    1126.43
+  Pior distancia:      1235.03
+  Media das melhores:  1190.43
+  Desvio padrao:       35.59

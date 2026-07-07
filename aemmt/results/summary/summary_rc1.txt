@@ -1,0 +1,20 @@
+# Resumo RC1 - AEMMT
+# Melhor execucao por instancia (10 execucoes por instancia)
+# --------------------------------------------------------------------------------
+
+Instancia  Best Exec  Veiculos       Dist Min     Dist Med     Dist Max        Std
+------------------------------------------------------------------------------------------
+RC101      exec08     19              2121.68      2153.08      2188.74      25.27
+RC102      exec02     16              1809.40      1826.07      1846.90      12.37
+RC103      exec07     14              1663.67      1670.64      1671.67       2.46
+RC104      exec05     12              1387.83      1431.22      1453.16      19.26
+RC105      exec07     17              1744.10      1819.02      1879.95      41.79
+RC106      exec02     15              1711.77      1767.00      1861.79      39.77
+RC107      exec07     14              1618.68      1655.77      1719.25      33.42
+RC108      exec04     13              1505.34      1533.70      1572.91      18.99
+
+Estatisticas da categoria RC1:
+  Melhor distancia:    1387.83
+  Pior distancia:      2121.68
+  Media das melhores:  1695.31
+  Desvio padrao:       218.75

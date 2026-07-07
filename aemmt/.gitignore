@@ -1,0 +1,28 @@
+# Arquivos grandes e de debug
+debug_fitness.txt
+*.log
+
+# Resultados e arquivos temporários
+results_validation_C1/**/*.txt
+results_validation_R1/**/*.txt
+results_validation_RC1/**/*.txt
+results_validation_C1_v1.0/**/*.txt
+results_validation_R1_v1.0/**/*.txt
+results_validation_RC1_v1.0/**/*.txt
+results_validation_C1_v1.2(solomon)/**/*.txt
+results_validation_R1_v1.2(solomon)/**/*.txt
+results_validation_RC1_v1.2(solomon)/**/*.txt
+resultsMulti/**/*.txt
+
+# Compiled class files
+*.class
+bin/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

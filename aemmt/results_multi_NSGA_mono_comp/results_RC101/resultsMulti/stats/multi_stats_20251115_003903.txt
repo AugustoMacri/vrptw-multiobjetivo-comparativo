@@ -1,0 +1,5 @@
+Estatísticas da Execução Multi-Objetivo (Subpopulação de Ponderação)
+=================================================================
+Melhor Fitness: 7547,95
+Fitness Médio: 7689,39
+Desvio Padrão: 104,98

@@ -1,0 +1,24 @@
+Estatísticas das Execuções Multi-Objetivo (Subpopulação de Ponderação)
+==================================================================
+
+Total de execuções analisadas: 10
+
+Execução   | Melhor Fitness                        
+---------------------------
+1          | 11021.30      
+2          | 11313.39      
+3          | 11177.00      
+4          | 10945.76      
+5          | 11139.08      
+6          | 11107.71      
+7          | 10883.09      
+8          | 10988.72      
+9          | 11211.08      
+10         | 11236.16      
+
+Estatísticas Gerais:
+Melhor fitness encontrado: 10883.09
+Pior fitness encontrado: 11313.39
+Fitness médio geral: 11102.33
+Média dos fitness médios: 11128.80
+Média dos desvios padrão: 15.38
